@@ -3,7 +3,6 @@ import { fetchContacts, addContact, deleteContact } from "./contactsOps";
 
 const initialState = {
   items: [],
-  contactsData: null,
   isLoading: false,
   isError: false,
 };
